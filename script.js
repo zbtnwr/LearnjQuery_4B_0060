@@ -25,7 +25,5 @@ btn.click(function () {
         .text(newNim)
         .addClass("nim");
 
-    result.appendChild(pNama);
-    result.appendChild(pEmail);
-    result.appendChild(pNIM);
+    result.append(pNama, pEmail, pNim);
 });
