@@ -7,7 +7,7 @@ const btn = $("#btnSubmit");
 const result = $("#results");
 
 
-btn.addEventListener('click', function(){
+btn.click(function () {
     let newNama = inputNama.value;
     let newEmail = inputEmail.value;
     let newNim = inputNim.value;
