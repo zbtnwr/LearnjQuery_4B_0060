@@ -9,7 +9,7 @@ const result = $("#results");
 
 btn.click(function () {
     let newNama = inputNama.val();
-    let newEmail = inputEmail.value;
+    let newEmail = inputEmail.val();
     let newNim = inputNim.value;
 
 
