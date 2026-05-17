@@ -1,7 +1,7 @@
 const inputNama = $("#inputNama");
 const inputEmail = $("#inputEmail");
 const inputNim = $("#inputNIM");
-const btn = document.getElementById('btnSubmit');
+const btn = $("#btnSubmit");
 
 
 const result = document.getElementById('results');
