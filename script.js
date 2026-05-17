@@ -17,9 +17,9 @@ btn.click(function () {
         .text(newNama)
         .addClass("nama");
 
-    let pEmail = document.createElement('p');
-    pEmail.innerHTML = newEmail;
-    pEmail.className = 'email';
+    let pEmail = $("<p></p>")
+        .text(newEmail)
+        .addClass("email");
 
     let pNIM = document.createElement('p');
     pNIM.innerHTML = newNim;
