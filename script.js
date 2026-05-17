@@ -21,9 +21,9 @@ btn.click(function () {
         .text(newEmail)
         .addClass("email");
 
-    let pNIM = document.createElement('p');
-    pNIM.innerHTML = newNim;
-    pNIM.className = 'nim';
+    let pNim = $("<p></p>")
+        .text(newNim)
+        .addClass("nim");
 
     result.appendChild(pNama);
     result.appendChild(pEmail);
