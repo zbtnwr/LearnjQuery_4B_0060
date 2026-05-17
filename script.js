@@ -4,7 +4,7 @@ const inputNim = $("#inputNIM");
 const btn = $("#btnSubmit");
 
 
-const result = document.getElementById('results');
+const result = $("#results");
 
 
 btn.addEventListener('click', function(){
